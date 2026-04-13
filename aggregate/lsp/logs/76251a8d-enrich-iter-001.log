@@ -1,0 +1,40 @@
+[2026-04-13T14:30:47Z] === ENRICH ITERATION 1 START | repo=chriseppstein/compass sha=76251a8d ===
+[2026-04-13T14:30:47Z] [iter=1] PHASE START: enrich repo=chriseppstein/compass sha=76251a8d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/76251a8d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/76251a8d38902a46a5213ec6343f776ee7f8be2a.nq.gz
+[2026-04-13T14:31:01Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-13T14:31:04Z] [iter=1] AST store loaded triples=491406 load_secs=4 mem_mb=803 MB
+[2026-04-13T14:31:04Z] [iter=1] Step 2: Finding LSP targets mem_mb=803 MB
+[2026-04-13T14:31:07Z] [iter=1] LSP targets found call_sites=7778 imports=0 extends=4 implements=0 secs=2
+[2026-04-13T14:31:09Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=803 MB
+[2026-04-13T14:31:11Z] [iter=1] Position index built positions=32607 nodes_with_types=40893 secs=3 mem_mb=803 MB
+[2026-04-13T14:31:11Z] [iter=1] Step 3: Starting LSP resolution mem_mb=803 MB already_completed_types=[] already_completed_files=0
+[2026-04-13T14:31:11Z] [iter=1] Resolving target type target_type=call_site count=7778
+[2026-04-13T14:32:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=1 resolved=28 errors=374 current=compass.gemspec
+[2026-04-13T14:33:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.3 files_done=5 resolved=85 errors=533 current=test/units/watcher/compiler_test.rb
+[2026-04-13T14:33:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=13 resolved=131 errors=700 current=lib/compass/logger.rb
+[2026-04-13T14:34:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=18 resolved=301 errors=941 current=lib/compass/sass_extensions/sprites/layout_methods.rb
+[2026-04-13T14:35:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=23 resolved=394 errors=1178 current=test/units/sprites/layout_test.rb
+[2026-04-13T14:35:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=26 resolved=422 errors=1355 current=lib/compass/sass_extensions/sprites/engines.rb
+[2026-04-13T14:36:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=31 resolved=469 errors=1523 current=test/units/sprites/importer_test.rb
+[2026-04-13T14:37:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=34 resolved=550 errors=1719 current=lib/compass/sass_extensions/functions/cross_browser_support.rb
+[2026-04-13T14:37:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=37 resolved=573 errors=1893 current=test/units/configuration_test.rb
+[2026-04-13T14:38:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=38 resolved=587 errors=2108 current=test/units/sprites/sprite_map_test.rb
+[2026-04-13T14:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=40 resolved=627 errors=2288 current=lib/compass/app_integration/rails.rb
+[2026-04-13T14:39:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=48 resolved=694 errors=2527 current=frameworks/compass/templates/ellipsis/manifest.rb
+[2026-04-13T14:40:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=54 resolved=770 errors=2722 current=test/units/sprites/image_row_test.rb
+[2026-04-13T14:40:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=60 resolved=812 errors=2903 current=lib/compass/sass_extensions/functions/image_size.rb
+[2026-04-13T14:41:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=67 resolved=885 errors=3071 current=lib/compass/configuration/helpers.rb
+[2026-04-13T14:41:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=72 resolved=920 errors=3221 current=lib/compass/commands/extension_command.rb
+[2026-04-13T14:42:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.7 files_done=77 resolved=951 errors=3382 current=test/fixtures/stylesheets/compass/config.rb
+[2026-04-13T14:43:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.6 files_done=87 resolved=994 errors=3677 current=lib/compass/sass_extensions/monkey_patches/traversal.rb
+[2026-04-13T14:43:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=97 resolved=1086 errors=3829 current=lib/compass/sass_extensions/functions/lists.rb
+[2026-04-13T14:44:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.7 files_done=104 resolved=1170 errors=3981 current=lib/compass/commands/registry.rb
+[2026-04-13T14:44:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.2 files_done=117 resolved=1290 errors=4137 current=test/units/sprites/images_test.rb
+[2026-04-13T14:45:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=125 resolved=1340 errors=4293 current=doc-src/lib/search.rb
+[2026-04-13T14:45:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=155 resolved=1494 errors=4435 current=lib/compass/app_integration.rb
+[2026-04-13T14:46:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=184 resolved=1540 errors=4581 current=doc-src/assets/javascripts/shBrushXml.js
+[2026-04-13T14:46:36Z] [iter=1] Target type resolved target_type=call_site resolved=1543 errors=4606 secs=924 mem_mb=803 MB
+[2026-04-13T14:46:36Z] [iter=1] Resolving target type target_type=extends_clause count=4
+[2026-04-13T14:46:38Z] [iter=1] Target type resolved target_type=extends_clause resolved=4 errors=0 secs=3 mem_mb=803 MB
+[2026-04-13T14:46:51Z] [iter=1] Step 5: Writing final enrichment file triples=49838
+[2026-04-13T14:46:52Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/76251a8d38902a46a5213ec6343f776ee7f8be2a.nq.gz size_kb=1016
+[2026-04-13T14:46:52Z] [iter=1] PHASE END: enrich elapsed_s=965 elapsed_min=16.1 total_triples=49838
